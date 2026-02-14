@@ -67,6 +67,7 @@
 #include "songoflutie.cpp"
 #include "springtrap.cpp"
 #include "swingdance.cpp"
+#include "symphonyoflovers.cpp"
 #include "swifttrap.cpp"
 #include "talkiebox.cpp"
 #include "unbarringoctave.cpp"
@@ -214,6 +215,8 @@ std::unique_ptr<const SkillImpl> SkillFactoryArcher::create(const e_skill skill_
 			return std::make_unique<SkillWindWalker>();
 		case WA_SWING_DANCE:
 			return std::make_unique<SkillSwingDance>();
+		case WA_SYMPHONY_OF_LOVER:
+			return std::make_unique<SkillSymphonyOfLovers>();
 		case TR_KVASIR_SONATA:
 			return std::make_unique<StatusSkillImpl>(skill_id);
 		case TR_MYSTIC_SYMPHONY:

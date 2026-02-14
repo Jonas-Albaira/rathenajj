@@ -378,6 +378,7 @@
     <ClInclude Include="skills/archer/songoflutie.hpp" />
     <ClInclude Include="skills/archer/springtrap.hpp" />
     <ClInclude Include="skills/archer/swingdance.hpp" />
+    <ClInclude Include="skills/archer/symphonyoflovers.hpp" />
     <ClInclude Include="skills/archer/swifttrap.hpp" />
     <ClInclude Include="skills/archer/talkiebox.hpp" />
     <ClInclude Include="skills/archer/unbarringoctave.hpp" />
@@ -1298,6 +1299,9 @@
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="skills/archer/swingdance.cpp">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="skills/archer/symphonyoflovers.cpp">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="skills/archer/swifttrap.cpp">
