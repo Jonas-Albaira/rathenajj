@@ -152,6 +152,7 @@ Body:
       raisemap: true
       day: true
       night: true
+      all_commands: true
       skillon: true
       skilloff: true
       pvpon: true
